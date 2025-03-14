@@ -1,18 +1,41 @@
-# Simple Registration and Login Form
+# Description: This project implements a simple login system using PHP and MySQL, hosted on XAMPP. It allows users to authenticate using a MySQL database.
 
-This repository contains a basic example of how to implement a registration and login form connected to a database. It serves as an introduction to form handling in a web application.
+## Setup Instructions 
+**Step 1:** Open the XAMPP Control Panel.
 
-### Important Notice
+Click the Start buttons next to Apache and MySql
 
-For production use or to ensure better security, it's highly recommended to incorporate proper security measures such as:
-- Using **prepared statements** to prevent SQL injection.
-- Considering a web framework like **Laravel** for more secure and scalable solutions.
+**Step 2:** Running the Project
 
-### Video Tutorial
+Place the project files in the htdocs directory of your XAMPP installation.
 
-For more details on using prepared statements and input validation, you can check out my video tutorial here:
-[Watch the video](https://youtu.be/mQhu19VmOPo)
+Example: C:\xampp\htdocs\your-directory-name
 
-You can watch the full tutorial on how to set up a login form with database connection on my YouTube channel:  
-[Francis Tech](https://www.youtube.com/@francis_tech)
+Open your browser and go to:
+
+http://localhost/your-directory-name
+
+This will launch the project in your browser.
+
+**Step 3:** Accessing the MySQL Database
+
+To manage your MySQL database, open phpMyAdmin by navigating to:
+
+http://localhost/phpmyadmin
+
+In phpMyAdmin, you can create and manage the database used by the login system.
+
+## Project Structure
+
+* index.php – Main login page.
+
+* db.php – Database connection file.
+
+* login.php – Script for authenticating users.
+
+* register.php – User registration page
+
+* config.php – Configuration file for MySQL. Usage
+
+Feel free to fork this repository, submit issues, and create pull requests if you would like to contribute.
 
