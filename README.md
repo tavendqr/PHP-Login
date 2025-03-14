@@ -39,3 +39,4 @@ In phpMyAdmin, you can create and manage the database used by the login system.
 
 Feel free to fork this repository, submit issues, and create pull requests if you would like to contribute.
 
+ 
